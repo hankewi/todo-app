@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #404040;
+  background-image: url("teddy.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #237ace;
+}
+
+.container {
+  width: 520px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 60px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #237ace;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: green;
+  color: #ffffff;
+}
+
+.counter {
+  display: inline;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.posts li {
+  background-color: #fff;
+  border: 1px solid #d8d8d8;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+  border-radius: 8px;
+}
